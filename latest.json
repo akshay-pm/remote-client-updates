@@ -1,15 +1,15 @@
 {
-  "version": "0.1.1",
-  "notes": "Remote Client 0.1.1 enables automatic EC2 target sync by default, fixes Linux target profile validation, refines update status text, and migrates legacy rdp-launcher data during installation.",
-  "pub_date": "2026-07-19T11:29:41.5454033Z",
+  "version": "0.1.2",
+  "notes": "Fixes retained RDPGFX surface-cache state across graphics resets, preventing tiled or stale desktop rendering on Windows 11.",
+  "pub_date": "2026-07-19T13:22:58.8725041Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/482340089",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjBFcUdPd28zNVUxeW5SUGhYZzRsVERlQlRLK0h5TUo5WlNEWUVYQ1pBTFZtUDl4eEJ6UDlUcndidFhiZUpIclRkSXBXK21qbmxoSDZ6WEZuMmIxQkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NDYwNTczCWZpbGU6UmVtb3RlIENsaWVudF8wLjEuMV94NjRfZW4tVVMubXNpCkVLQ0cwN2kvc29XSThzVHVzb3pHdVpseVJjc0d0MXpvajNaeWwvOGF6UmlaWGI4VFdxVE9SRytWK0dTelROVnBxYTJtYll5bU5BT2pUazB6T2NzSEFBPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/482410834",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Unk2eldPUFNkaDI3R2xZT2x2ampVWVY2NGcydW82OXpFWW1TL1hycnZZUEk0RDgvMTQrQUl5T2tENENmV3lyRmZWSjFyREJUd0FrTVBUTERFazB2T0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NDY3MzcwCWZpbGU6UmVtb3RlIENsaWVudF8wLjEuMl94NjRfZW4tVVMubXNpCnoxMlQ0ZlB3RkJSaXE0VWx4ZVIwNzJrY0Nsa0xES3BUVm5rcHhDVG9pS0hVVm1EWXdta2RwNUpuUjhsSW9uMWt5Wm9iYUEyOStTVUxKcVphaTJnOURRPT0K"
     },
     "windows-x86_64": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/482340089",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjBFcUdPd28zNVUxeW5SUGhYZzRsVERlQlRLK0h5TUo5WlNEWUVYQ1pBTFZtUDl4eEJ6UDlUcndidFhiZUpIclRkSXBXK21qbmxoSDZ6WEZuMmIxQkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NDYwNTczCWZpbGU6UmVtb3RlIENsaWVudF8wLjEuMV94NjRfZW4tVVMubXNpCkVLQ0cwN2kvc29XSThzVHVzb3pHdVpseVJjc0d0MXpvajNaeWwvOGF6UmlaWGI4VFdxVE9SRytWK0dTelROVnBxYTJtYll5bU5BT2pUazB6T2NzSEFBPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/482410834",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Unk2eldPUFNkaDI3R2xZT2x2ampVWVY2NGcydW82OXpFWW1TL1hycnZZUEk0RDgvMTQrQUl5T2tENENmV3lyRmZWSjFyREJUd0FrTVBUTERFazB2T0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NDY3MzcwCWZpbGU6UmVtb3RlIENsaWVudF8wLjEuMl94NjRfZW4tVVMubXNpCnoxMlQ0ZlB3RkJSaXE0VWx4ZVIwNzJrY0Nsa0xES3BUVm5rcHhDVG9pS0hVVm1EWXdta2RwNUpuUjhsSW9uMWt5Wm9iYUEyOStTVUxKcVphaTJnOURRPT0K"
     }
   }
 }

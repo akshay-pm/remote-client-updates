@@ -1,15 +1,15 @@
 {
-    "version":  "0.1.0",
-    "notes":  "Initial private Remote Client release with automatic updates.",
-    "pub_date":  "2026-07-19T01:38:55.6054294Z",
-    "platforms":  {
-                      "windows-x86_64-msi":  {
-                                                 "url":  "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/481961288",
-                                                 "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjZUUVUwZ3J0MFBGVUVWc0o3cE5PR1JvYlRpZUFaVnB1U293azBYOEYydGlDM0RPRzN4b29vZDRhL1F1UkVuOE96Wk9acUl3UVl2OWU2VTQxdFRSc2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NDI0OTIzCWZpbGU6UmVtb3RlIENsaWVudF8wLjEuMF94NjRfZW4tVVMubXNpCkVGQTRzdmIwYVFQRitVYVpWTzA1UXNQdVFUUm45SUZyYUprOEIyMEJxb2N0eXlCWlhYajdFZC9FaXZhZDNyWWFDNEtKNHFNUTgrb3Z1b1FGUTZQT0RBPT0K"
-                                             },
-                      "windows-x86_64":  {
-                                             "url":  "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/481961288",
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjZUUVUwZ3J0MFBGVUVWc0o3cE5PR1JvYlRpZUFaVnB1U293azBYOEYydGlDM0RPRzN4b29vZDRhL1F1UkVuOE96Wk9acUl3UVl2OWU2VTQxdFRSc2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NDI0OTIzCWZpbGU6UmVtb3RlIENsaWVudF8wLjEuMF94NjRfZW4tVVMubXNpCkVGQTRzdmIwYVFQRitVYVpWTzA1UXNQdVFUUm45SUZyYUprOEIyMEJxb2N0eXlCWlhYajdFZC9FaXZhZDNyWWFDNEtKNHFNUTgrb3Z1b1FGUTZQT0RBPT0K"
-                                         }
-                  }
+  "version": "0.1.1",
+  "notes": "Remote Client 0.1.1 enables automatic EC2 target sync by default, fixes Linux target profile validation, refines update status text, and migrates legacy rdp-launcher data during installation.",
+  "pub_date": "2026-07-19T11:29:41.5454033Z",
+  "platforms": {
+    "windows-x86_64-msi": {
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/482340089",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjBFcUdPd28zNVUxeW5SUGhYZzRsVERlQlRLK0h5TUo5WlNEWUVYQ1pBTFZtUDl4eEJ6UDlUcndidFhiZUpIclRkSXBXK21qbmxoSDZ6WEZuMmIxQkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NDYwNTczCWZpbGU6UmVtb3RlIENsaWVudF8wLjEuMV94NjRfZW4tVVMubXNpCkVLQ0cwN2kvc29XSThzVHVzb3pHdVpseVJjc0d0MXpvajNaeWwvOGF6UmlaWGI4VFdxVE9SRytWK0dTelROVnBxYTJtYll5bU5BT2pUazB6T2NzSEFBPT0K"
+    },
+    "windows-x86_64": {
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/482340089",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjBFcUdPd28zNVUxeW5SUGhYZzRsVERlQlRLK0h5TUo5WlNEWUVYQ1pBTFZtUDl4eEJ6UDlUcndidFhiZUpIclRkSXBXK21qbmxoSDZ6WEZuMmIxQkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NDYwNTczCWZpbGU6UmVtb3RlIENsaWVudF8wLjEuMV94NjRfZW4tVVMubXNpCkVLQ0cwN2kvc29XSThzVHVzb3pHdVpseVJjc0d0MXpvajNaeWwvOGF6UmlaWGI4VFdxVE9SRytWK0dTelROVnBxYTJtYll5bU5BT2pUazB6T2NzSEFBPT0K"
+    }
+  }
 }

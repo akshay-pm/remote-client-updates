@@ -1,15 +1,15 @@
 {
-  "version": "0.1.3",
-  "notes": "Adds searchable credential pickers across profile setup, with clearer credential and username details. Also introduces a dedicated Updates section in Settings and improves dropdown spacing and scrollbar stability.",
-  "pub_date": "2026-07-19T16:27:59.9598672Z",
+  "version": "0.1.4",
+  "notes": "Remote Client 0.1.4",
+  "pub_date": "2026-07-20T08:18:30.2908233Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/482548361",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjM5d1IxV205V1BYQ3pXb2xwMUVDRFJqMWkzNkhDRjVvQUtHeFJITWRnNGZBMkJuQlI1QndETWZmOFNmMmhqK2tkOStkWjFXcURXZDdVS0MxVUZSTVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NDc4NDcyCWZpbGU6UmVtb3RlIENsaWVudF8wLjEuM194NjRfZW4tVVMubXNpCjhYQ3hxSENtQ2t6Rko2REFTQUZxZEFxU2RuRW95bW1WQkxTZ1lKZkZZNW1UZmxzbXYzM1RSS1BpU1Zja0EzMm52VG1yWi81RUtyako4ZEpkMG9SbEFBPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/483229309",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UnorMS9oNzFyZnJ6ZGF3TWlmd3MxL2ZzbHB6ZkEwVFF4eHgzRUp4YVZuQlpud0V5VjUrUUR6ZGZQTGtRbVVvb01aTEw1RGx4dU9NSE1RNFNDcHZrQkFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTM1NTAyCWZpbGU6UmVtb3RlIENsaWVudF8wLjEuNF94NjRfZW4tVVMubXNpCmdMWnFibTB2OHJYREUvSERucEUvS0VqME1YbkpkcjB1UWJhdlVlNlVFZ2I1MDNqWVVDLzZzcmJRamFHVUhIdUlxd05pcHZTYTFmZStjT2xmOHlaUkNnPT0K"
     },
     "windows-x86_64": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/482548361",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjM5d1IxV205V1BYQ3pXb2xwMUVDRFJqMWkzNkhDRjVvQUtHeFJITWRnNGZBMkJuQlI1QndETWZmOFNmMmhqK2tkOStkWjFXcURXZDdVS0MxVUZSTVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NDc4NDcyCWZpbGU6UmVtb3RlIENsaWVudF8wLjEuM194NjRfZW4tVVMubXNpCjhYQ3hxSENtQ2t6Rko2REFTQUZxZEFxU2RuRW95bW1WQkxTZ1lKZkZZNW1UZmxzbXYzM1RSS1BpU1Zja0EzMm52VG1yWi81RUtyako4ZEpkMG9SbEFBPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/483229309",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UnorMS9oNzFyZnJ6ZGF3TWlmd3MxL2ZzbHB6ZkEwVFF4eHgzRUp4YVZuQlpud0V5VjUrUUR6ZGZQTGtRbVVvb01aTEw1RGx4dU9NSE1RNFNDcHZrQkFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTM1NTAyCWZpbGU6UmVtb3RlIENsaWVudF8wLjEuNF94NjRfZW4tVVMubXNpCmdMWnFibTB2OHJYREUvSERucEUvS0VqME1YbkpkcjB1UWJhdlVlNlVFZ2I1MDNqWVVDLzZzcmJRamFHVUhIdUlxd05pcHZTYTFmZStjT2xmOHlaUkNnPT0K"
     }
   }
 }

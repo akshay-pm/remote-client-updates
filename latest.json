@@ -1,15 +1,15 @@
 {
-    "version":  "0.1.4",
-    "notes":  "- Hardened credential handling, RDP certificate trust, navigation, and AWS temporary-admin provisioning.\n- Added reliable virtual-file clipboard transfers for embedded RDP sessions.\n- External MSTSC sessions can now run concurrently, with per-profile connection status and automatic tunnel cleanup.\n- Improved embedded RDP transport, graphics reliability, update safety, and settings/dialog behavior.",
-    "pub_date":  "2026-07-20T08:18:30.2908233Z",
-    "platforms":  {
-                      "windows-x86_64-msi":  {
-                                                 "url":  "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/483229309",
-                                                 "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UnorMS9oNzFyZnJ6ZGF3TWlmd3MxL2ZzbHB6ZkEwVFF4eHgzRUp4YVZuQlpud0V5VjUrUUR6ZGZQTGtRbVVvb01aTEw1RGx4dU9NSE1RNFNDcHZrQkFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTM1NTAyCWZpbGU6UmVtb3RlIENsaWVudF8wLjEuNF94NjRfZW4tVVMubXNpCmdMWnFibTB2OHJYREUvSERucEUvS0VqME1YbkpkcjB1UWJhdlVlNlVFZ2I1MDNqWVVDLzZzcmJRamFHVUhIdUlxd05pcHZTYTFmZStjT2xmOHlaUkNnPT0K"
-                                             },
-                      "windows-x86_64":  {
-                                             "url":  "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/483229309",
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UnorMS9oNzFyZnJ6ZGF3TWlmd3MxL2ZzbHB6ZkEwVFF4eHgzRUp4YVZuQlpud0V5VjUrUUR6ZGZQTGtRbVVvb01aTEw1RGx4dU9NSE1RNFNDcHZrQkFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTM1NTAyCWZpbGU6UmVtb3RlIENsaWVudF8wLjEuNF94NjRfZW4tVVMubXNpCmdMWnFibTB2OHJYREUvSERucEUvS0VqME1YbkpkcjB1UWJhdlVlNlVFZ2I1MDNqWVVDLzZzcmJRamFHVUhIdUlxd05pcHZTYTFmZStjT2xmOHlaUkNnPT0K"
-                                         }
-                  }
+  "version": "0.1.5",
+  "notes": "Remote Client 0.1.5\r\n\r\nThis release polishes forms, dropdowns, credentials, and dialogs for a more consistent and stable interface.\r\n\r\n- Unified input and dropdown focus styling while retaining neutral search-field colors.\r\n\r\n- Smoothed modal and dropdown animations, including icon-heavy menus and compact credential dialogs.\r\n\r\n- Added credential search with clear empty and no-match states in Settings.\r\n\r\n- Standardized credential, bastion, workspace, toolbar, and dialog controls, spacing, borders, and icons.",
+  "pub_date": "2026-07-20T11:52:12.0412469Z",
+  "platforms": {
+    "windows-x86_64-msi": {
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/483410643",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjV2enRVUTlOSTllcWp3SGRTOWlNRTJ0VytEeXV3Y1JmeWExVkRmOVJRdTFhbnZPakM2UG5jS3N4NlBqV2ROWmtKRElFK3FUa2ZjY21UcERqandZUUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTQ4MzE3CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuNV94NjRfZW4tVVMubXNpCldBWk1FYXp1ZXdMUUZFRHQrRnNRY05WNUVpT0FUL2hKU0RXNjFYSURGTm9DQTdYRDk3anh3S283NEdWcXh6Y1J5amJLOEVKNnpXS1ZLSmpZeHNYQkNRPT0K"
+    },
+    "windows-x86_64": {
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/483410643",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjV2enRVUTlOSTllcWp3SGRTOWlNRTJ0VytEeXV3Y1JmeWExVkRmOVJRdTFhbnZPakM2UG5jS3N4NlBqV2ROWmtKRElFK3FUa2ZjY21UcERqandZUUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTQ4MzE3CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuNV94NjRfZW4tVVMubXNpCldBWk1FYXp1ZXdMUUZFRHQrRnNRY05WNUVpT0FUL2hKU0RXNjFYSURGTm9DQTdYRDk3anh3S283NEdWcXh6Y1J5amJLOEVKNnpXS1ZLSmpZeHNYQkNRPT0K"
+    }
+  }
 }

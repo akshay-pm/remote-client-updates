@@ -1,6 +1,6 @@
 {
   "version": "0.1.3",
-  "notes": "Remote Client 0.1.3",
+  "notes": "Adds searchable credential pickers across profile setup, with clearer credential and username details. Also introduces a dedicated Updates section in Settings and improves dropdown spacing and scrollbar stability.",
   "pub_date": "2026-07-19T16:27:59.9598672Z",
   "platforms": {
     "windows-x86_64-msi": {

@@ -1,15 +1,15 @@
 {
-  "version": "0.1.5",
-  "notes": "Remote Client 0.1.5\r\n\r\nThis release polishes forms, dropdowns, credentials, and dialogs for a more consistent and stable interface.\r\n\r\n- Unified input and dropdown focus styling while retaining neutral search-field colors.\r\n\r\n- Smoothed modal and dropdown animations, including icon-heavy menus and compact credential dialogs.\r\n\r\n- Added credential search with clear empty and no-match states in Settings.\r\n\r\n- Standardized credential, bastion, workspace, toolbar, and dialog controls, spacing, borders, and icons.",
-  "pub_date": "2026-07-20T11:52:12.0412469Z",
+  "version": "0.1.6",
+  "notes": "Remote Client 0.1.6\r\n\r\nThis release improves connection safety and feedback while tightening UI consistency across profiles, forms, dropdowns, credentials, and dialogs.\r\n\r\n- Added managed SSH host-key trust with first-use verification, changed-key blocking, and automatic pinning inside authenticated SSM tunnels.\r\n\r\n- Replaced the manual SSH host-key reset action with a targeted trust prompt when a verified key changes.\r\n\r\n- Added a cancellable connecting state, a 10-second SSH preflight deadline, and actionable multi-line timeout errors that identify the bastion and target endpoint.\r\n\r\n- Standardized Linux and Windows profile authentication indicators across Managed Vault, AWS one-click, and SSM connection modes.\r\n\r\n- Refined dropdown animations, scrolling, option spacing, empty states, credential search, input focus behavior, modal stability, and shared button contrast.",
+  "pub_date": "2026-07-21T07:44:47.6829745Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/483410643",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjV2enRVUTlOSTllcWp3SGRTOWlNRTJ0VytEeXV3Y1JmeWExVkRmOVJRdTFhbnZPakM2UG5jS3N4NlBqV2ROWmtKRElFK3FUa2ZjY21UcERqandZUUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTQ4MzE3CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuNV94NjRfZW4tVVMubXNpCldBWk1FYXp1ZXdMUUZFRHQrRnNRY05WNUVpT0FUL2hKU0RXNjFYSURGTm9DQTdYRDk3anh3S283NEdWcXh6Y1J5amJLOEVKNnpXS1ZLSmpZeHNYQkNRPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/484401127",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjYrM3dQM2hmMlAxNDFEMk5yNUZNbnBKTnB3ejZCL2M2Z25jaGRKTjNyY2lTNXVUVWZJTW5TUDY2QWVvYjdmbXlJSkFPeUF6WHNZMTE4bGZZV1IrZ0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjE5ODc4CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuNl94NjRfZW4tVVMubXNpCjVXb3hiMm11S0pDcTJEZlFLWjk4Mi9Va3ppSXd4dWlWNm90STNDamlaT1ppRzVKVk5mUDdEQjZ3RlVsSFJLT3VYbFU5YjhpZnM2QlQyQWNVWldIRUJRPT0K"
     },
     "windows-x86_64": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/483410643",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjV2enRVUTlOSTllcWp3SGRTOWlNRTJ0VytEeXV3Y1JmeWExVkRmOVJRdTFhbnZPakM2UG5jS3N4NlBqV2ROWmtKRElFK3FUa2ZjY21UcERqandZUUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTQ4MzE3CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuNV94NjRfZW4tVVMubXNpCldBWk1FYXp1ZXdMUUZFRHQrRnNRY05WNUVpT0FUL2hKU0RXNjFYSURGTm9DQTdYRDk3anh3S283NEdWcXh6Y1J5amJLOEVKNnpXS1ZLSmpZeHNYQkNRPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/484401127",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjYrM3dQM2hmMlAxNDFEMk5yNUZNbnBKTnB3ejZCL2M2Z25jaGRKTjNyY2lTNXVUVWZJTW5TUDY2QWVvYjdmbXlJSkFPeUF6WHNZMTE4bGZZV1IrZ0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjE5ODc4CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuNl94NjRfZW4tVVMubXNpCjVXb3hiMm11S0pDcTJEZlFLWjk4Mi9Va3ppSXd4dWlWNm90STNDamlaT1ppRzVKVk5mUDdEQjZ3RlVsSFJLT3VYbFU5YjhpZnM2QlQyQWNVWldIRUJRPT0K"
     }
   }
 }

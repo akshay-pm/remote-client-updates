@@ -1,15 +1,15 @@
 {
-  "version": "0.1.7",
-  "notes": "Release v0.1.7",
-  "pub_date": "2026-07-22T09:10:24.4079150Z",
+  "version": "0.1.8",
+  "notes": "Remote Client 0.1.8\r\n\r\n- Reworked environment tab reordering for smooth, vertically constrained dragging and reliable drop animations.\r\n\r\n- Kept the hover highlight attached to the environment tab throughout dragging.\r\n\r\n- Polished empty AWS and VPC loading states with subtle white shimmer feedback.\r\n\r\n- Renamed manual AWS authentication to Access keys for clearer intent.",
+  "pub_date": "2026-07-22T11:23:36.1036096Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/485751162",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjFUZXFjV0kvYkxnc24vS0Zyc1IxVm5zWTgvZEltTmQ4Q2NJUFFSRXcvSWVacjRHQTFmbS8zb0hoZEp3V0hBa09hRWZDcjF6VEErd1J5M1pHdFRhN1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NzExNDE2CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuN194NjRfZW4tVVMubXNpCmFYdS9tSU42c3BoSzV3cGRzTmJBTGh5ZkV4ZnJzYkxMNGFEeExpNldHUVc5THdoUWxralFqeWtURTJGQTdrNVhDMHB3Ump2SGxFbFUzcHo5SmRsMUNnPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/485873660",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjdXNUhzMFhlYVl6TTdvTGluczMyV0YyTEpVNzh6Q3lnYlpQcUg1YjA2YXBJYkhRc0hDam51ZEp3S29pQTlRNWg2M3NUWG0wZ3RZeG14WHh2eDF1VWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NzE5NDA2CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuOF94NjRfZW4tVVMubXNpCjFLSWZWSEtFSEY2YWRUaEpzcEtURW1EQUhFZ0FmRng3Rm9wRnVuNFE3TlBBKzN0UDA0eGpHdUFNZGwrK2dlVkZtYUExQUdpd2hqVm5EWjlWN3V2R0NRPT0K"
     },
     "windows-x86_64": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/485751162",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjFUZXFjV0kvYkxnc24vS0Zyc1IxVm5zWTgvZEltTmQ4Q2NJUFFSRXcvSWVacjRHQTFmbS8zb0hoZEp3V0hBa09hRWZDcjF6VEErd1J5M1pHdFRhN1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NzExNDE2CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuN194NjRfZW4tVVMubXNpCmFYdS9tSU42c3BoSzV3cGRzTmJBTGh5ZkV4ZnJzYkxMNGFEeExpNldHUVc5THdoUWxralFqeWtURTJGQTdrNVhDMHB3Ump2SGxFbFUzcHo5SmRsMUNnPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/485873660",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjdXNUhzMFhlYVl6TTdvTGluczMyV0YyTEpVNzh6Q3lnYlpQcUg1YjA2YXBJYkhRc0hDam51ZEp3S29pQTlRNWg2M3NUWG0wZ3RZeG14WHh2eDF1VWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NzE5NDA2CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuOF94NjRfZW4tVVMubXNpCjFLSWZWSEtFSEY2YWRUaEpzcEtURW1EQUhFZ0FmRng3Rm9wRnVuNFE3TlBBKzN0UDA0eGpHdUFNZGwrK2dlVkZtYUExQUdpd2hqVm5EWjlWN3V2R0NRPT0K"
     }
   }
 }

@@ -1,15 +1,15 @@
 {
-  "version": "0.1.9",
-  "notes": "Remote Client 0.1.9\r\n\r\n- Show an immediate, DPI-aware native Windows splash while WebView2 starts, avoiding the initial white flash.\r\n\r\n- Improve Windows SSH compatibility with Ed25519 and ECDSA host keys by using the vendored OpenSSL libssh2 backend.",
-  "pub_date": "2026-07-23T07:20:58.8812452Z",
+  "version": "0.1.10",
+  "notes": "Remote Client 0.1.10\r\n\r\n- Protect AWS one-click RDP credentials by returning only encrypted password data from SSM.\r\n\r\n- Preserve one-click Windows profiles and disconnected sessions while rotating passwords and disabling access when connections close.\r\n\r\n- Make embedded RDP clipboard access opt-in per profile, with text-only and text-and-files modes plus stricter validation.",
+  "pub_date": "2026-07-24T11:56:52.0717071Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/486896200",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjR4bkdwTklKL3QvWTRoMkUxVm81eERtdG1iMFhKWGtHcHZKeGlPUVZXekYwRUdkVDBITk83M2t6akFxUVVZMzVTNmJYOTBHQkN0VC9wOWZJQzlNYUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NzkxMjQ4CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuOV94NjRfZW4tVVMubXNpCjFwckFHSzhOREFGOGFjWWtLSkduSkFRa2RIUldlWWJYK2ZGWm5FeVg1MHdud21nRjh1WXd2YzRZeFFGVlVTZTNrVkpyTjF3VFl0UWxwNXgzK3NMTEFnPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/488362635",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UityazhwVWtNTmpHRFVzenY5TDVVSjN5eFBHajJnWFVCNDZVa2w2RTl6RWVneENqS2NsaE5ONDFMTmx2MU1pRi84RDY4VHZQdHlwUkxKektKempXQ2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0ODk0MTk0CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuMTBfeDY0X2VuLVVTLm1zaQowcGdFUEFRVmZwaUgwWUhuZXR2RmVzWk4yVEtQd2UxOHVMSy90UmF1b3B3UVVHTnBuZmk5bTRoSEVtOGxCYUVNVUc0NnlhWklnUmwyRE9zdWNvZEJEUT09Cg=="
     },
     "windows-x86_64": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/486896200",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjR4bkdwTklKL3QvWTRoMkUxVm81eERtdG1iMFhKWGtHcHZKeGlPUVZXekYwRUdkVDBITk83M2t6akFxUVVZMzVTNmJYOTBHQkN0VC9wOWZJQzlNYUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NzkxMjQ4CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuOV94NjRfZW4tVVMubXNpCjFwckFHSzhOREFGOGFjWWtLSkduSkFRa2RIUldlWWJYK2ZGWm5FeVg1MHdud21nRjh1WXd2YzRZeFFGVlVTZTNrVkpyTjF3VFl0UWxwNXgzK3NMTEFnPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/488362635",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UityazhwVWtNTmpHRFVzenY5TDVVSjN5eFBHajJnWFVCNDZVa2w2RTl6RWVneENqS2NsaE5ONDFMTmx2MU1pRi84RDY4VHZQdHlwUkxKektKempXQ2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0ODk0MTk0CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuMTBfeDY0X2VuLVVTLm1zaQowcGdFUEFRVmZwaUgwWUhuZXR2RmVzWk4yVEtQd2UxOHVMSy90UmF1b3B3UVVHTnBuZmk5bTRoSEVtOGxCYUVNVUc0NnlhWklnUmwyRE9zdWNvZEJEUT09Cg=="
     }
   }
 }

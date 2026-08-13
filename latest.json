@@ -1,15 +1,15 @@
 {
-  "version": "0.1.10",
-  "notes": "Remote Client 0.1.10\r\n\r\n- Protect AWS one-click RDP credentials by returning only encrypted password data from SSM.\r\n\r\n- Preserve one-click Windows profiles and disconnected sessions while rotating passwords and disabling access when connections close.\r\n\r\n- Make embedded RDP clipboard access opt-in per profile, with text-only and text-and-files modes plus stricter validation.",
-  "pub_date": "2026-07-24T11:56:52.0717071Z",
+  "version": "0.1.11",
+  "notes": "Remote Client 0.1.11\r\n\r\n- Add Windows EC2 private-key authentication, decrypting initial Administrator passwords locally without saving them.\r\n\r\n- Allow up to four profiles to sync in parallel and refresh only affected EC2 instances after power actions.\r\n\r\n- Add per-VPC instance search and smoother, clearer profile and authentication dialogs.\r\n\r\n- Require typing the instance name before termination and show the AWS account, region, and instance details.\r\n\r\n- Improve SSM shell startup reliability and terminal key behavior.",
+  "pub_date": "2026-08-13T10:38:05.8860861Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/488362635",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UityazhwVWtNTmpHRFVzenY5TDVVSjN5eFBHajJnWFVCNDZVa2w2RTl6RWVneENqS2NsaE5ONDFMTmx2MU1pRi84RDY4VHZQdHlwUkxKektKempXQ2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0ODk0MTk0CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuMTBfeDY0X2VuLVVTLm1zaQowcGdFUEFRVmZwaUgwWUhuZXR2RmVzWk4yVEtQd2UxOHVMSy90UmF1b3B3UVVHTnBuZmk5bTRoSEVtOGxCYUVNVUc0NnlhWklnUmwyRE9zdWNvZEJEUT09Cg=="
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/512853483",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Ui9IZjUzU2NmRW5mVnV6TnVOWS9sc3UvRGUvVXh6ZnBmRjh0TXRXYzZvaklFYVR3VGxWamg3Mnh6Nk1NTlY3bE9YQVM5azU5VnJRcGk4N2g4Y2tYZWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjE3NDc1CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuMTFfeDY0X2VuLVVTLm1zaQpoRTd6VDdXS3MxVGd1bHhsNWtTSVlIdDBNOVNsMmpMN1B6UDgyV1llWGhpYnREUzFIcmo3R09pelRNQTdaa2hMQTM4d2xKaWVOSmN6cDlDRzZTMWhDdz09Cg=="
     },
     "windows-x86_64": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/488362635",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UityazhwVWtNTmpHRFVzenY5TDVVSjN5eFBHajJnWFVCNDZVa2w2RTl6RWVneENqS2NsaE5ONDFMTmx2MU1pRi84RDY4VHZQdHlwUkxKektKempXQ2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0ODk0MTk0CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuMTBfeDY0X2VuLVVTLm1zaQowcGdFUEFRVmZwaUgwWUhuZXR2RmVzWk4yVEtQd2UxOHVMSy90UmF1b3B3UVVHTnBuZmk5bTRoSEVtOGxCYUVNVUc0NnlhWklnUmwyRE9zdWNvZEJEUT09Cg=="
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/512853483",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Ui9IZjUzU2NmRW5mVnV6TnVOWS9sc3UvRGUvVXh6ZnBmRjh0TXRXYzZvaklFYVR3VGxWamg3Mnh6Nk1NTlY3bE9YQVM5azU5VnJRcGk4N2g4Y2tYZWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjE3NDc1CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuMTFfeDY0X2VuLVVTLm1zaQpoRTd6VDdXS3MxVGd1bHhsNWtTSVlIdDBNOVNsMmpMN1B6UDgyV1llWGhpYnREUzFIcmo3R09pelRNQTdaa2hMQTM4d2xKaWVOSmN6cDlDRzZTMWhDdz09Cg=="
     }
   }
 }

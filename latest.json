@@ -1,15 +1,15 @@
 {
-  "version": "0.1.11",
-  "notes": "Remote Client 0.1.11\r\n\r\n- Add Windows EC2 private-key authentication, decrypting initial Administrator passwords locally without saving them.\r\n\r\n- Allow up to four profiles to sync in parallel and refresh only affected EC2 instances after power actions.\r\n\r\n- Add per-VPC instance search and smoother, clearer profile and authentication dialogs.\r\n\r\n- Require typing the instance name before termination and show the AWS account, region, and instance details.\r\n\r\n- Improve SSM shell startup reliability and terminal key behavior.",
-  "pub_date": "2026-08-13T10:38:05.8860861Z",
+  "version": "0.2.0",
+  "notes": "Remote Client 0.2.0\r\n\r\n- Added EC2 Instance Connect for Linux SSH with Auto, Public, and Private Endpoint routes, plus EC2 Serial Console recovery terminals for Linux and Windows.\r\n- Added reliable Serial Console cleanup when tabs close, preventing active-session limit errors.\r\n- Saved credentials can now be reused across Windows and Linux.\r\n- Managed private-key copies are now encrypted at rest and materialized only temporarily when connecting.\r\n- AWS SSO sign-in can now be cancelled immediately and retried without waiting for a timeout.\r\n- Added an action to stop all running instances in a VPC.\r\n- Fixed in-app Remote Desktop key repeat and preserved display scaling when the window is resized. Initial scaling now follows the Windows display setting.\r\n- Background Remote Desktop sessions now stay renderer-synchronized so they display correctly when revisited.\r\n- Fixed profile saves and deletions so unrelated profiles are no longer revalidated or affected.\r\n- Added a full-screen mode with an auto-hiding title bar for a more immersive workspace.\r\n- Remote Desktop and SSH terminal tabs can now be moved into separate windows and merged back without reconnecting, enabling multi-monitor workflows.\r\n- Added light mode, plus an Auto setting that follows the operating system appearance.\r\n- Clarified Other profile setup by renaming Method to Connection Type.",
+  "pub_date": "2026-08-17T10:37:15.6146393Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/512853483",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Ui9IZjUzU2NmRW5mVnV6TnVOWS9sc3UvRGUvVXh6ZnBmRjh0TXRXYzZvaklFYVR3VGxWamg3Mnh6Nk1NTlY3bE9YQVM5azU5VnJRcGk4N2g4Y2tYZWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjE3NDc1CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuMTFfeDY0X2VuLVVTLm1zaQpoRTd6VDdXS3MxVGd1bHhsNWtTSVlIdDBNOVNsMmpMN1B6UDgyV1llWGhpYnREUzFIcmo3R09pelRNQTdaa2hMQTM4d2xKaWVOSmN6cDlDRzZTMWhDdz09Cg=="
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/517975584",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Ujh6M0UyRHl4QWtKRFFmOTh6MmFMeXcvMHFra3dLV0FnSnRNWnh3c2VWQ2VKZ211cFJ4QjhUWEZwcWJtQ2I5d1pWcE9yTGFrVHJMZG5SbktDbXptWEFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2OTYzMDI0CWZpbGU6UmVtb3RlIENsaWVudF8wLjIuMF94NjRfZW4tVVMubXNpCit5LzR4V3ZnSEFPcndpTW5lU1ZGOXdUVTBhUERoWTVkZFN3OXFseGpYa0FKSENLY3VicTdaMjNsTnBjZEIxUlhrU01sS3p1WW5hdldJeENscm1LNEJBPT0K"
     },
     "windows-x86_64": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/512853483",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Ui9IZjUzU2NmRW5mVnV6TnVOWS9sc3UvRGUvVXh6ZnBmRjh0TXRXYzZvaklFYVR3VGxWamg3Mnh6Nk1NTlY3bE9YQVM5azU5VnJRcGk4N2g4Y2tYZWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjE3NDc1CWZpbGU6UmVtb3RlIENsaWVudF8wLjEuMTFfeDY0X2VuLVVTLm1zaQpoRTd6VDdXS3MxVGd1bHhsNWtTSVlIdDBNOVNsMmpMN1B6UDgyV1llWGhpYnREUzFIcmo3R09pelRNQTdaa2hMQTM4d2xKaWVOSmN6cDlDRzZTMWhDdz09Cg=="
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/517975584",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Ujh6M0UyRHl4QWtKRFFmOTh6MmFMeXcvMHFra3dLV0FnSnRNWnh3c2VWQ2VKZ211cFJ4QjhUWEZwcWJtQ2I5d1pWcE9yTGFrVHJMZG5SbktDbXptWEFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2OTYzMDI0CWZpbGU6UmVtb3RlIENsaWVudF8wLjIuMF94NjRfZW4tVVMubXNpCit5LzR4V3ZnSEFPcndpTW5lU1ZGOXdUVTBhUERoWTVkZFN3OXFseGpYa0FKSENLY3VicTdaMjNsTnBjZEIxUlhrU01sS3p1WW5hdldJeENscm1LNEJBPT0K"
     }
   }
 }

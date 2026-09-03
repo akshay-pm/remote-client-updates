@@ -1,15 +1,15 @@
 {
-  "version": "0.4.0",
-  "notes": "Remote Client 0.4.0\r\n\r\n- Added Cloud Instances for discovering and connecting to EC2 instances directly from the live AWS inventory.\r\n\r\n- Existing connection profiles are now Custom Hosts, with existing data migrated automatically.\r\n\r\n- Environments can now organize both Cloud Instances and Custom Hosts.",
-  "pub_date": "2026-08-28T10:29:03.9946737Z",
+  "version": "0.5.0",
+  "notes": "- Detect stalled embedded RDP sessions, attempt automatic recovery, and allow manual reconnection while retaining the last desktop frame.\r\n\r\n- Complete RDP and tunnel cleanup before allowing reconnection.\r\n\r\n- Protect workspace data with coordinated writes, atomic file replacement, rotating encrypted backups, and automatic recovery.\r\n\r\n- Keep settings synchronized between the main application and detached session windows.",
+  "pub_date": "2026-09-03T10:30:10.8398011Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/533636064",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjNEeVBKMm9NaDBYOG96eE9yQldWUU93eVE2c2g1dmo5Ni9HZHFrSFJuTDlPZDVWOXV1Um5BTEhTeFB1UHFrUDJlRnlEeVBuNTd4YndmMGw5bmdrNUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3OTEyOTE2CWZpbGU6UmVtb3RlIENsaWVudF8wLjQuMF94NjRfZW4tVVMubXNpCk1zc0o5UW96eW10aHRRV2RaTnM5ZEo1dkJtZENzeVpLSTZkWjRpeEdPTVVKU2E4TlpkYlN0eXlUQ1EzTFBrSzgzWWppbGp0ekU4bE90ZlBNTTBWSUFBPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/542604255",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjYyOEhQZlZpd0FsUmx1L25EL2N3NXRjUXh5bndPMGUzd1czam9wdXBaWFJhSlFZc0xXT003T0s3ZEp4NU84VndRK3RDbWk3clM2TWpCZmI3Ujc3OEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NDMxMzk5CWZpbGU6UmVtb3RlIENsaWVudF8wLjUuMF94NjRfZW4tVVMubXNpCnZjNlFXZVBHQ1JMRUtmTjFxWTM5VjZOT0h4dDBsUlliYXhIRTBiMWsrbWJUUWhCWFBrSitPTTVTK2RId3R3Qk1ycy9odjdMNk5PS1BhMXJRczlJdUNBPT0K"
     },
     "windows-x86_64": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/533636064",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjNEeVBKMm9NaDBYOG96eE9yQldWUU93eVE2c2g1dmo5Ni9HZHFrSFJuTDlPZDVWOXV1Um5BTEhTeFB1UHFrUDJlRnlEeVBuNTd4YndmMGw5bmdrNUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3OTEyOTE2CWZpbGU6UmVtb3RlIENsaWVudF8wLjQuMF94NjRfZW4tVVMubXNpCk1zc0o5UW96eW10aHRRV2RaTnM5ZEo1dkJtZENzeVpLSTZkWjRpeEdPTVVKU2E4TlpkYlN0eXlUQ1EzTFBrSzgzWWppbGp0ekU4bE90ZlBNTTBWSUFBPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/542604255",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjYyOEhQZlZpd0FsUmx1L25EL2N3NXRjUXh5bndPMGUzd1czam9wdXBaWFJhSlFZc0xXT003T0s3ZEp4NU84VndRK3RDbWk3clM2TWpCZmI3Ujc3OEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NDMxMzk5CWZpbGU6UmVtb3RlIENsaWVudF8wLjUuMF94NjRfZW4tVVMubXNpCnZjNlFXZVBHQ1JMRUtmTjFxWTM5VjZOT0h4dDBsUlliYXhIRTBiMWsrbWJUUWhCWFBrSitPTTVTK2RId3R3Qk1ycy9odjdMNk5PS1BhMXJRczlJdUNBPT0K"
     }
   }
 }

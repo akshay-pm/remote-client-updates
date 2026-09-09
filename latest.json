@@ -1,15 +1,15 @@
 {
-  "version": "0.5.1",
-  "notes": "- Retry unresponsive Remote Desktop connections automatically up to three times with a countdown before offering manual reconnect.\r\n\r\n- Explain why a Remote Desktop session disconnected, including Windows domain policy sign-outs, another user connecting, or remote display issues.\r\n\r\n- Ensure closed Remote Desktop sessions fully disconnect before reconnecting to prevent connection conflicts.\r\n\r\n- Remember your last selected view (Cloud Instances, Custom Hosts, Environments, or Vault) across workspace switches and restarts.",
-  "pub_date": "2026-09-08T11:57:08.5089041Z",
+  "version": "0.6.0",
+  "notes": "- Add hierarchical environment trees with slash-delimited naming (e.g. 'production/us-east-1/web'), parent rollup counts, and nested machine filtering.\r\n\r\n- Add a setting under General to toggle between flat tabs and hierarchical environment trees.",
+  "pub_date": "2026-09-09T13:29:33.7885820Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/550407566",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjhreHVNNUFET2tYanBTWkdYQW0rbDRRT1U2NlpmRjVMamQ3dWNqb0JUQ2hseTNKOXVaUW8yTUx6N1ZhTGZYa3lQYm1HUFprWTlvR2hjeFNxbld6aHdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODY4NjIxCWZpbGU6UmVtb3RlIENsaWVudF8wLjUuMV94NjRfZW4tVVMubXNpCkd0ellKMGFKWVVkdVhoUWlHTExpenc5R2Rncmd2bnVLa2lwamxaSGpNSTJNSHlzRlJIMzhJK09ydWQvVkxaVmJkRWlXSzNrMWhuWWFlM0VWdFJkUUNRPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/552824516",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UnpTTXFhNi81TU03U1R6NWJDUGV0TEJHOUszam83OWNzVmVGZVppZUt0eGQ1SzdyNWtyUDFpQVBqREw3RFRmNm9XYU9oQVdSU3dSYk5wMGsxcWltcWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4OTYwNTQxCWZpbGU6UmVtb3RlIENsaWVudF8wLjYuMF94NjRfZW4tVVMubXNpCnYzT2prNkR1NnBnVHZyN1FNUkJXek9BRG81L0lVRGIyS285Y0o2TTEzcW5WWjZ1ZDcrZjEvK0FLRnFQZ1ZxTXRvNk5OYVJ0Nml5dUlsdDgzWTJLUUJRPT0K"
     },
     "windows-x86_64": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/550407566",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjhreHVNNUFET2tYanBTWkdYQW0rbDRRT1U2NlpmRjVMamQ3dWNqb0JUQ2hseTNKOXVaUW8yTUx6N1ZhTGZYa3lQYm1HUFprWTlvR2hjeFNxbld6aHdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODY4NjIxCWZpbGU6UmVtb3RlIENsaWVudF8wLjUuMV94NjRfZW4tVVMubXNpCkd0ellKMGFKWVVkdVhoUWlHTExpenc5R2Rncmd2bnVLa2lwamxaSGpNSTJNSHlzRlJIMzhJK09ydWQvVkxaVmJkRWlXSzNrMWhuWWFlM0VWdFJkUUNRPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/552824516",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UnpTTXFhNi81TU03U1R6NWJDUGV0TEJHOUszam83OWNzVmVGZVppZUt0eGQ1SzdyNWtyUDFpQVBqREw3RFRmNm9XYU9oQVdSU3dSYk5wMGsxcWltcWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4OTYwNTQxCWZpbGU6UmVtb3RlIENsaWVudF8wLjYuMF94NjRfZW4tVVMubXNpCnYzT2prNkR1NnBnVHZyN1FNUkJXek9BRG81L0lVRGIyS285Y0o2TTEzcW5WWjZ1ZDcrZjEvK0FLRnFQZ1ZxTXRvNk5OYVJ0Nml5dUlsdDgzWTJLUUJRPT0K"
     }
   }
 }

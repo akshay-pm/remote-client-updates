@@ -1,15 +1,15 @@
 {
-  "version": "0.7.0",
-  "notes": "- Connect embedded Remote Desktop sessions through RD Gateways directly in-app, removing the need to fall back to external Microsoft RDC.\r\n\r\n- Route system shortcuts including Alt+Tab and Win+R to focused embedded Remote Desktop sessions when remote or full-screen shortcut routing is enabled.\r\n\r\n- Added an in-app tab switcher (Alt+`) to quickly cycle through open connection tabs in most-recently-used order.\r\n\r\n- Added a title bar tab context menu to close the active tab, tabs to the right, other tabs, or all tabs.\r\n\r\n- Open connections in background tabs without switching focus using middle-click, Ctrl/Cmd+click, or the dedicated background connect button in the machine list.",
-  "pub_date": "2026-09-16T07:38:05.9394865Z",
+  "version": "0.7.1",
+  "notes": "- Fixed SSH authentication failures when using saved private keys for in-app Remote Desktop connections.\r\n\r\n- Fixed RD Gateway helper discovery on other computers after installation.\r\n\r\n- Increased gateway connection startup time from 25 to 60 seconds and improved failure messages.\r\n\r\n- Added RD Gateway certificate verification with Trust once and Trust and remember options.\r\n\r\n- Added explicit approval for changed gateway certificates, showing the previous and new fingerprints.",
+  "pub_date": "2026-09-16T11:08:01.6869494Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/567449245",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Unc3d1ZOYTAxOEo5VjcvbWhDWkhPM0ZaaGpVNURJODU1M0plSUMvKzBwMkdycXV2bXpGU0N3Y2Flem1tUnlmWFhJZUZLTTJYSkhQb0ZHcDNMSnZxeVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTQ0Mjc0CWZpbGU6UmVtb3RlIENsaWVudF8wLjcuMF94NjRfZW4tVVMubXNpCk10Q2xJRndLeHp1OW1aOStxUDZBOGZBUS96eU5aQ05GRHpiQ3laVVRVMVdYZ1VyZDFnU2d2dXIxdk1PV29Bc2hQMWZGMkhrV0tkb1RGZUErYkJpOUFnPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/567793014",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Ui9XZCt0TlZrQnFTajlIZmtQUmVWM1J1b1dUY2NOaWFmWm5RQnFsZVdPWEtKNGtncjJIWUdac1ZPV0g1WlNRMnJtMU1VOEkvam9VYnF4bFF2SGxGY3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTU2ODcxCWZpbGU6UmVtb3RlIENsaWVudF8wLjcuMV94NjRfZW4tVVMubXNpCk1VaXNhVTZXVCtPMlZoakpBNjI0TEJkQUMwK1lkQTRWQWUwQm5MMFJwWDh3YWsxTjRoTmR6ZHpoRGNJLzNla0hDbFg2VEJUUUZ0UUFUNXFxMTFxakNRPT0K"
     },
     "windows-x86_64": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/567449245",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Unc3d1ZOYTAxOEo5VjcvbWhDWkhPM0ZaaGpVNURJODU1M0plSUMvKzBwMkdycXV2bXpGU0N3Y2Flem1tUnlmWFhJZUZLTTJYSkhQb0ZHcDNMSnZxeVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTQ0Mjc0CWZpbGU6UmVtb3RlIENsaWVudF8wLjcuMF94NjRfZW4tVVMubXNpCk10Q2xJRndLeHp1OW1aOStxUDZBOGZBUS96eU5aQ05GRHpiQ3laVVRVMVdYZ1VyZDFnU2d2dXIxdk1PV29Bc2hQMWZGMkhrV0tkb1RGZUErYkJpOUFnPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/567793014",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Ui9XZCt0TlZrQnFTajlIZmtQUmVWM1J1b1dUY2NOaWFmWm5RQnFsZVdPWEtKNGtncjJIWUdac1ZPV0g1WlNRMnJtMU1VOEkvam9VYnF4bFF2SGxGY3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTU2ODcxCWZpbGU6UmVtb3RlIENsaWVudF8wLjcuMV94NjRfZW4tVVMubXNpCk1VaXNhVTZXVCtPMlZoakpBNjI0TEJkQUMwK1lkQTRWQWUwQm5MMFJwWDh3YWsxTjRoTmR6ZHpoRGNJLzNla0hDbFg2VEJUUUZ0UUFUNXFxMTFxakNRPT0K"
     }
   }
 }

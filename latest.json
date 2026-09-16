@@ -1,15 +1,15 @@
 {
-  "version": "0.6.0",
-  "notes": "- Add hierarchical environment trees with slash-delimited naming (e.g. 'production/us-east-1/web'), parent rollup counts, and nested machine filtering.\r\n\r\n- Add a setting under General to toggle between flat tabs and hierarchical environment trees.",
-  "pub_date": "2026-09-09T13:29:33.7885820Z",
+  "version": "0.7.0",
+  "notes": "- Connect embedded Remote Desktop sessions through RD Gateways directly in-app, removing the need to fall back to external Microsoft RDC.\r\n\r\n- Route system shortcuts including Alt+Tab and Win+R to focused embedded Remote Desktop sessions when remote or full-screen shortcut routing is enabled.\r\n\r\n- Added an in-app tab switcher (Alt+`) to quickly cycle through open connection tabs in most-recently-used order.\r\n\r\n- Added a title bar tab context menu to close the active tab, tabs to the right, other tabs, or all tabs.\r\n\r\n- Open connections in background tabs without switching focus using middle-click, Ctrl/Cmd+click, or the dedicated background connect button in the machine list.",
+  "pub_date": "2026-09-16T07:38:05.9394865Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/552824516",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UnpTTXFhNi81TU03U1R6NWJDUGV0TEJHOUszam83OWNzVmVGZVppZUt0eGQ1SzdyNWtyUDFpQVBqREw3RFRmNm9XYU9oQVdSU3dSYk5wMGsxcWltcWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4OTYwNTQxCWZpbGU6UmVtb3RlIENsaWVudF8wLjYuMF94NjRfZW4tVVMubXNpCnYzT2prNkR1NnBnVHZyN1FNUkJXek9BRG81L0lVRGIyS285Y0o2TTEzcW5WWjZ1ZDcrZjEvK0FLRnFQZ1ZxTXRvNk5OYVJ0Nml5dUlsdDgzWTJLUUJRPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/567449245",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Unc3d1ZOYTAxOEo5VjcvbWhDWkhPM0ZaaGpVNURJODU1M0plSUMvKzBwMkdycXV2bXpGU0N3Y2Flem1tUnlmWFhJZUZLTTJYSkhQb0ZHcDNMSnZxeVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTQ0Mjc0CWZpbGU6UmVtb3RlIENsaWVudF8wLjcuMF94NjRfZW4tVVMubXNpCk10Q2xJRndLeHp1OW1aOStxUDZBOGZBUS96eU5aQ05GRHpiQ3laVVRVMVdYZ1VyZDFnU2d2dXIxdk1PV29Bc2hQMWZGMkhrV0tkb1RGZUErYkJpOUFnPT0K"
     },
     "windows-x86_64": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/552824516",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UnpTTXFhNi81TU03U1R6NWJDUGV0TEJHOUszam83OWNzVmVGZVppZUt0eGQ1SzdyNWtyUDFpQVBqREw3RFRmNm9XYU9oQVdSU3dSYk5wMGsxcWltcWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4OTYwNTQxCWZpbGU6UmVtb3RlIENsaWVudF8wLjYuMF94NjRfZW4tVVMubXNpCnYzT2prNkR1NnBnVHZyN1FNUkJXek9BRG81L0lVRGIyS285Y0o2TTEzcW5WWjZ1ZDcrZjEvK0FLRnFQZ1ZxTXRvNk5OYVJ0Nml5dUlsdDgzWTJLUUJRPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/567449245",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Unc3d1ZOYTAxOEo5VjcvbWhDWkhPM0ZaaGpVNURJODU1M0plSUMvKzBwMkdycXV2bXpGU0N3Y2Flem1tUnlmWFhJZUZLTTJYSkhQb0ZHcDNMSnZxeVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTQ0Mjc0CWZpbGU6UmVtb3RlIENsaWVudF8wLjcuMF94NjRfZW4tVVMubXNpCk10Q2xJRndLeHp1OW1aOStxUDZBOGZBUS96eU5aQ05GRHpiQ3laVVRVMVdYZ1VyZDFnU2d2dXIxdk1PV29Bc2hQMWZGMkhrV0tkb1RGZUErYkJpOUFnPT0K"
     }
   }
 }

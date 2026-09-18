@@ -1,15 +1,15 @@
 {
-  "version": "0.7.1",
-  "notes": "- Fixed SSH authentication failures when using saved private keys for in-app Remote Desktop connections.\r\n\r\n- Fixed RD Gateway helper discovery on other computers after installation.\r\n\r\n- Increased gateway connection startup time from 25 to 60 seconds and improved failure messages.\r\n\r\n- Added RD Gateway certificate verification with Trust once and Trust and remember options.\r\n\r\n- Added explicit approval for changed gateway certificates, showing the previous and new fingerprints.",
-  "pub_date": "2026-09-16T11:08:01.6869494Z",
+  "version": "0.7.2",
+  "notes": "- Added bulk actions to VPC group headers in Cloud Instances, allowing instances to be assigned to environments or imported as Custom Hosts in bulk.\r\n\r\n- Added support for bulk configuring Windows and Linux credentials when assigning or importing VPC instances.\r\n\r\n- Integrated the Environments list directly into the primary navigation rail for faster one-click navigation across environments.",
+  "pub_date": "2026-09-18T15:01:11.1491238Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/567793014",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Ui9XZCt0TlZrQnFTajlIZmtQUmVWM1J1b1dUY2NOaWFmWm5RQnFsZVdPWEtKNGtncjJIWUdac1ZPV0g1WlNRMnJtMU1VOEkvam9VYnF4bFF2SGxGY3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTU2ODcxCWZpbGU6UmVtb3RlIENsaWVudF8wLjcuMV94NjRfZW4tVVMubXNpCk1VaXNhVTZXVCtPMlZoakpBNjI0TEJkQUMwK1lkQTRWQWUwQm5MMFJwWDh3YWsxTjRoTmR6ZHpoRGNJLzNla0hDbFg2VEJUUUZ0UUFUNXFxMTFxakNRPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/572852249",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjNBelNoUU5VMmVxVmxYcEJpS043V2tSWm9kRXozZTdMQ05WVldtRHN2OVVaaUV6SU05eWNPaG1SN1VVVWllU0NONXNqa2wvVzJWUkpiOEcybzM5cFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzQzNjYyCWZpbGU6UmVtb3RlIENsaWVudF8wLjcuMl94NjRfZW4tVVMubXNpClh6STNYMlpadzJSQ053MlFEOWo1aVJtbkFJREFSOHNFRHhBMDlIR0hJQzA2N0o3K2x2N3NDU1JHMSt1Z0pkcWIyQTBSOE92R3NuaU5Xbzk1SkMyR0F3PT0K"
     },
     "windows-x86_64": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/567793014",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Ui9XZCt0TlZrQnFTajlIZmtQUmVWM1J1b1dUY2NOaWFmWm5RQnFsZVdPWEtKNGtncjJIWUdac1ZPV0g1WlNRMnJtMU1VOEkvam9VYnF4bFF2SGxGY3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTU2ODcxCWZpbGU6UmVtb3RlIENsaWVudF8wLjcuMV94NjRfZW4tVVMubXNpCk1VaXNhVTZXVCtPMlZoakpBNjI0TEJkQUMwK1lkQTRWQWUwQm5MMFJwWDh3YWsxTjRoTmR6ZHpoRGNJLzNla0hDbFg2VEJUUUZ0UUFUNXFxMTFxakNRPT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/572852249",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjNBelNoUU5VMmVxVmxYcEJpS043V2tSWm9kRXozZTdMQ05WVldtRHN2OVVaaUV6SU05eWNPaG1SN1VVVWllU0NONXNqa2wvVzJWUkpiOEcybzM5cFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzQzNjYyCWZpbGU6UmVtb3RlIENsaWVudF8wLjcuMl94NjRfZW4tVVMubXNpClh6STNYMlpadzJSQ053MlFEOWo1aVJtbkFJREFSOHNFRHhBMDlIR0hJQzA2N0o3K2x2N3NDU1JHMSt1Z0pkcWIyQTBSOE92R3NuaU5Xbzk1SkMyR0F3PT0K"
     }
   }
 }

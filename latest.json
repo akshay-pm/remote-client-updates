@@ -1,15 +1,15 @@
 {
-  "version": "0.7.2",
-  "notes": "- Added bulk actions to VPC group headers in Cloud Instances, allowing instances to be assigned to environments or imported as Custom Hosts in bulk.\r\n\r\n- Added support for bulk configuring Windows and Linux credentials when assigning or importing VPC instances.\r\n\r\n- Integrated the Environments list directly into the primary navigation rail for faster one-click navigation across environments.",
-  "pub_date": "2026-09-18T15:01:11.1491238Z",
+  "version": "0.8.0",
+  "notes": "- Added custom sync sources (plugins) to dynamically resolve connection targets and jump hosts using local CLI scripts, executables, or internal REST API endpoints.\r\n\r\n- Added a dedicated drop target to quickly clear environment assignments when dragging machines in an environment view.",
+  "pub_date": "2026-09-23T08:28:26.5040274Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/572852249",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjNBelNoUU5VMmVxVmxYcEJpS043V2tSWm9kRXozZTdMQ05WVldtRHN2OVVaaUV6SU05eWNPaG1SN1VVVWllU0NONXNqa2wvVzJWUkpiOEcybzM5cFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzQzNjYyCWZpbGU6UmVtb3RlIENsaWVudF8wLjcuMl94NjRfZW4tVVMubXNpClh6STNYMlpadzJSQ053MlFEOWo1aVJtbkFJREFSOHNFRHhBMDlIR0hJQzA2N0o3K2x2N3NDU1JHMSt1Z0pkcWIyQTBSOE92R3NuaU5Xbzk1SkMyR0F3PT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/583333995",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UnhVdFNKMXhIUmxMQWY0bHY3alprK1g3WGZhekZNRDZzTmRqeXVUTnZSbGU4Y0xYVUttN1lLY0JMYXdOWjNlWWJkSWxGTFN3VnBLZmVaYzZ6MkRJQ2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTUyMDk1CWZpbGU6UmVtb3RlIENsaWVudF8wLjguMF94NjRfZW4tVVMubXNpClZHaFJFQnNmQmtXaFhCSHhsa3ArOG44V01YVkJCdVNtVWg0QUFNc1JDMWR1VGJPb0p6b2FnbHdxMng1dFNPSU1KcGNFY3RSVEk0eGJPV1lFY0s0bkJ3PT0K"
     },
     "windows-x86_64": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/572852249",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjNBelNoUU5VMmVxVmxYcEJpS043V2tSWm9kRXozZTdMQ05WVldtRHN2OVVaaUV6SU05eWNPaG1SN1VVVWllU0NONXNqa2wvVzJWUkpiOEcybzM5cFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzQzNjYyCWZpbGU6UmVtb3RlIENsaWVudF8wLjcuMl94NjRfZW4tVVMubXNpClh6STNYMlpadzJSQ053MlFEOWo1aVJtbkFJREFSOHNFRHhBMDlIR0hJQzA2N0o3K2x2N3NDU1JHMSt1Z0pkcWIyQTBSOE92R3NuaU5Xbzk1SkMyR0F3PT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/583333995",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UnhVdFNKMXhIUmxMQWY0bHY3alprK1g3WGZhekZNRDZzTmRqeXVUTnZSbGU4Y0xYVUttN1lLY0JMYXdOWjNlWWJkSWxGTFN3VnBLZmVaYzZ6MkRJQ2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTUyMDk1CWZpbGU6UmVtb3RlIENsaWVudF8wLjguMF94NjRfZW4tVVMubXNpClZHaFJFQnNmQmtXaFhCSHhsa3ArOG44V01YVkJCdVNtVWg0QUFNc1JDMWR1VGJPb0p6b2FnbHdxMng1dFNPSU1KcGNFY3RSVEk0eGJPV1lFY0s0bkJ3PT0K"
     }
   }
 }

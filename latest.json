@@ -1,15 +1,15 @@
 {
-  "version": "0.8.0",
-  "notes": "- Added custom sync sources (plugins) to dynamically resolve connection targets and jump hosts using local CLI scripts, executables, or internal REST API endpoints.\r\n\r\n- Added a dedicated drop target to quickly clear environment assignments when dragging machines in an environment view.",
-  "pub_date": "2026-09-23T08:28:26.5040274Z",
+  "version": "0.8.1",
+  "notes": "- Fixed RDP graphics negotiation to properly verify confirmed server capabilities before activating AVC/H.264 mode, automatically falling back to Progressive CPU graphics when unsupported.\r\n\r\n- Improved graphics flow control and frame acknowledgment timing during active screen updates, reducing input latency in embedded Remote Desktop sessions.\r\n\r\n- Fixed an issue where creating a nested environment with intermediate paths (e.g. creating main/parent/child under main) did not properly create the intermediate parent folders, and enabled assigning or dragging machines directly into them.\r\n\r\n- Added an Animations setting in Settings → General allowing interface animations to be disabled or customized independently of operating system preferences.",
+  "pub_date": "2026-09-25T09:35:03.0718568Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/583333995",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UnhVdFNKMXhIUmxMQWY0bHY3alprK1g3WGZhekZNRDZzTmRqeXVUTnZSbGU4Y0xYVUttN1lLY0JMYXdOWjNlWWJkSWxGTFN3VnBLZmVaYzZ6MkRJQ2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTUyMDk1CWZpbGU6UmVtb3RlIENsaWVudF8wLjguMF94NjRfZW4tVVMubXNpClZHaFJFQnNmQmtXaFhCSHhsa3ArOG44V01YVkJCdVNtVWg0QUFNc1JDMWR1VGJPb0p6b2FnbHdxMng1dFNPSU1KcGNFY3RSVEk0eGJPV1lFY0s0bkJ3PT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/588020882",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjliWTdlTURhSjNjSmdWaWZyZG1GdWNNdHlFK3VzbHZ5eUxkeExYTW9wakNWNkRqMFNJUmlkbllmNUgxd0dWQndydkJYa1FGRGErTUtCejZuT28yVlFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzI4ODkyCWZpbGU6UmVtb3RlIENsaWVudF8wLjguMV94NjRfZW4tVVMubXNpCmRQQkNRNkdPUFFPT1k3RCttOHhtNTJIMXhmS2Q3WnFaTDB3eUU5dms1M1V0anZWT0FYSzVXSWx0S2xiYXdlWW9GdmdqRkVGU01XL1dBdTU0TkZvM0JnPT0K"
     },
     "windows-x86_64": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/583333995",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UnhVdFNKMXhIUmxMQWY0bHY3alprK1g3WGZhekZNRDZzTmRqeXVUTnZSbGU4Y0xYVUttN1lLY0JMYXdOWjNlWWJkSWxGTFN3VnBLZmVaYzZ6MkRJQ2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTUyMDk1CWZpbGU6UmVtb3RlIENsaWVudF8wLjguMF94NjRfZW4tVVMubXNpClZHaFJFQnNmQmtXaFhCSHhsa3ArOG44V01YVkJCdVNtVWg0QUFNc1JDMWR1VGJPb0p6b2FnbHdxMng1dFNPSU1KcGNFY3RSVEk0eGJPV1lFY0s0bkJ3PT0K"
+      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/588020882",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjliWTdlTURhSjNjSmdWaWZyZG1GdWNNdHlFK3VzbHZ5eUxkeExYTW9wakNWNkRqMFNJUmlkbllmNUgxd0dWQndydkJYa1FGRGErTUtCejZuT28yVlFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzI4ODkyCWZpbGU6UmVtb3RlIENsaWVudF8wLjguMV94NjRfZW4tVVMubXNpCmRQQkNRNkdPUFFPT1k3RCttOHhtNTJIMXhmS2Q3WnFaTDB3eUU5dms1M1V0anZWT0FYSzVXSWx0S2xiYXdlWW9GdmdqRkVGU01XL1dBdTU0TkZvM0JnPT0K"
     }
   }
 }

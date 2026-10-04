@@ -1,0 +1,1 @@
+function e(e,t){let n=new URLSearchParams(e).get(`walkthroughPlatform`);return n===`macOS`||n===`Windows`?n:t}function t(e,t,n){let r=new URL(e);return r.search=new URLSearchParams({walkthroughDemo:t,walkthroughPlatform:n}).toString(),r.hash=``,r.href}export{t as n,e as t};

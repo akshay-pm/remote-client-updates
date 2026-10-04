@@ -1,15 +1,15 @@
 {
-  "version": "0.8.1",
-  "notes": "- Fixed RDP graphics negotiation to properly verify confirmed server capabilities before activating AVC/H.264 mode, automatically falling back to Progressive CPU graphics when unsupported.\r\n\r\n- Improved graphics flow control and frame acknowledgment timing during active screen updates, reducing input latency in embedded Remote Desktop sessions.\r\n\r\n- Fixed an issue where creating a nested environment with intermediate paths (e.g. creating main/parent/child under main) did not properly create the intermediate parent folders, and enabled assigning or dragging machines directly into them.\r\n\r\n- Added an Animations setting in Settings → General allowing interface animations to be disabled or customized independently of operating system preferences.",
-  "pub_date": "2026-09-25T09:35:03.0718568Z",
+  "version": "0.9.0",
+  "notes": "- Added macOS support with an Apple Silicon installer.\n- Added interactive walkthroughs for connections, workspaces, environments, and host sync.\n- Added installation and management of AWS CLI and Session Manager tools from Settings.\n- Fixed bastion selection and address validation for Linux custom hosts.\n\n",
+  "pub_date": "2026-10-04T20:09:24.2144406Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/588020882",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjliWTdlTURhSjNjSmdWaWZyZG1GdWNNdHlFK3VzbHZ5eUxkeExYTW9wakNWNkRqMFNJUmlkbllmNUgxd0dWQndydkJYa1FGRGErTUtCejZuT28yVlFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzI4ODkyCWZpbGU6UmVtb3RlIENsaWVudF8wLjguMV94NjRfZW4tVVMubXNpCmRQQkNRNkdPUFFPT1k3RCttOHhtNTJIMXhmS2Q3WnFaTDB3eUU5dms1M1V0anZWT0FYSzVXSWx0S2xiYXdlWW9GdmdqRkVGU01XL1dBdTU0TkZvM0JnPT0K"
+      "url": "https://github.com/akshay-pm/remote-client-updates/releases/download/v0.9.0/Remote.Client_0.9.0_x64_en-US.msi",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjBxZ0xTUUhVaHZlalFoR3NKem5tVldKUHlDNGszbUhOeElzaVl5NDRXYndaTk9hWWpPY1p5cmtEanVNbWU4bzFwL3Z3ZnNENnAva1ZZTHZELzAyRGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTQ0MzIwCWZpbGU6UmVtb3RlIENsaWVudF8wLjkuMF94NjRfZW4tVVMubXNpClcxR1VGSGxrRFBpR29XaFhNa1NpQnA1bjcrelBXajRqRFhScVc0NGxBK3BZNFdSSlBySFRZSlNoVUlIZ0lQYjdLdmhpZWsxMUFXQjUzQitZTlJwY0R3PT0K"
     },
     "windows-x86_64": {
-      "url": "https://api.github.com/repos/akshay-pm/remote-client-updates/releases/assets/588020882",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjliWTdlTURhSjNjSmdWaWZyZG1GdWNNdHlFK3VzbHZ5eUxkeExYTW9wakNWNkRqMFNJUmlkbllmNUgxd0dWQndydkJYa1FGRGErTUtCejZuT28yVlFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzI4ODkyCWZpbGU6UmVtb3RlIENsaWVudF8wLjguMV94NjRfZW4tVVMubXNpCmRQQkNRNkdPUFFPT1k3RCttOHhtNTJIMXhmS2Q3WnFaTDB3eUU5dms1M1V0anZWT0FYSzVXSWx0S2xiYXdlWW9GdmdqRkVGU01XL1dBdTU0TkZvM0JnPT0K"
+      "url": "https://github.com/akshay-pm/remote-client-updates/releases/download/v0.9.0/Remote.Client_0.9.0_x64_en-US.msi",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjBxZ0xTUUhVaHZlalFoR3NKem5tVldKUHlDNGszbUhOeElzaVl5NDRXYndaTk9hWWpPY1p5cmtEanVNbWU4bzFwL3Z3ZnNENnAva1ZZTHZELzAyRGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTQ0MzIwCWZpbGU6UmVtb3RlIENsaWVudF8wLjkuMF94NjRfZW4tVVMubXNpClcxR1VGSGxrRFBpR29XaFhNa1NpQnA1bjcrelBXajRqRFhScVc0NGxBK3BZNFdSSlBySFRZSlNoVUlIZ0lQYjdLdmhpZWsxMUFXQjUzQitZTlJwY0R3PT0K"
     }
   }
 }

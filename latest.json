@@ -10,6 +10,15 @@
     "windows-x86_64": {
       "url": "https://github.com/akshay-pm/remote-client-updates/releases/download/v0.10.0/Remote.Client_0.10.0_x64_en-US.msi",
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjZIdnBwNTNIeitacHhYM2xKS3p2QVhzM01nSS9RL0U2cGdUK0VLSUZCT2hqcG1PR2VZc1liSWg2QmZrNWJjZmZ0Y2dBaFRjTk1rQ1FLZDNzWE9UWWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDE2MjY3CWZpbGU6UmVtb3RlIENsaWVudF8wLjEwLjBfeDY0X2VuLVVTLm1zaQoxQlRsdWlxc2tQSXFMWXlEUUNIM2RndzdOcklwbVlRdzNtM1B2ZUNTb283eC9mSlJsTkVtOXpGN2ZoSVB0OHNMd2NDKzROd3BlNU02Q25VcldtZUNDUT09Cg=="
+    },
+    "darwin-aarch64": {
+      "url": "https://github.com/akshay-pm/remote-client-updates/releases/download/v0.10.0/Remote.Client.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Ui9nbUtQN3B0dklldlErNzQ5NktYd0dpTkFoajZMQ0RKK1pPd1dkWXo0OVJiTWx4N0hzc2N1ODYwci9QZDRhZFBTRXRCdmdOU0o5Z0ppZ2dlTnFMY1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDE2NzExCWZpbGU6UmVtb3RlIENsaWVudC5hcHAudGFyLmd6CjlRemxEM1hLVWE3L25ieVBIN0VtYlBtckYzU2xXRzdjbWJwck91RTQ0TFY5dlY2cm81M3VQcXUxQzlXL1gwd25BM2RkY2VxQzVvbEg2SHp5UnVzckR3PT0K"
+    }
+  },
+  "downloads": {
+    "darwin-aarch64": {
+      "url": "https://github.com/akshay-pm/remote-client-updates/releases/download/v0.10.0/Remote.Client_0.10.0_aarch64.dmg"
     }
   }
 }

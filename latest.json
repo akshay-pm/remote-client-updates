@@ -1,24 +1,24 @@
 {
-  "version": "0.10.0",
-  "notes": "- Improved clipboard reliability when copying and pasting files and text in Remote Desktop sessions.\r\n\r\n- Added real-time progress indicators and native Windows notifications for Remote Desktop file and large-text clipboard transfers.\r\n\r\n- Added a 'Type saved password' option in the Remote Desktop Send Keys menu to securely type connection credentials into remote lock screens, login prompts, and UAC dialogs with device verification.\r\n\r\n- Added App Lock to protect Remote Client using device authentication (Windows Hello / Touch ID) on startup, computer lock, idle inactivity timeouts, or manual lock, while keeping active sessions connected in the background.\r\n\r\n- Added a built-in SFTP file browser for both Linux and Windows hosts, supporting directory navigation, uploads, downloads, file creation, renaming, and deletions.",
-  "pub_date": "2026-10-19T13:38:45.6083351Z",
+  "version": "0.10.1",
+  "notes": "- Fixed an issue where manually entered credentials didn’t work.\n- Added optional clipboard history that clears when the app locks or closes.\n- Added reusable command snippets for connected sessions.\n- Renamed Environments to Groups to better reflect the different ways users can organize machines.",
+  "pub_date": "2026-10-19T13:38:56Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "url": "https://github.com/akshay-pm/remote-client-updates/releases/download/v0.10.0/Remote.Client_0.10.0_x64_en-US.msi",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjZIdnBwNTNIeitacHhYM2xKS3p2QVhzM01nSS9RL0U2cGdUK0VLSUZCT2hqcG1PR2VZc1liSWg2QmZrNWJjZmZ0Y2dBaFRjTk1rQ1FLZDNzWE9UWWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDE2MjY3CWZpbGU6UmVtb3RlIENsaWVudF8wLjEwLjBfeDY0X2VuLVVTLm1zaQoxQlRsdWlxc2tQSXFMWXlEUUNIM2RndzdOcklwbVlRdzNtM1B2ZUNTb283eC9mSlJsTkVtOXpGN2ZoSVB0OHNMd2NDKzROd3BlNU02Q25VcldtZUNDUT09Cg=="
+      "url": "https://github.com/akshay-pm/remote-client-updates/releases/download/v0.10.1/Remote.Client_0.10.1_x64_en-US.msi",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjB2aElZTEltMlVJdWdBSTBDV0Ivdk1qSEY5OXFFQmhWUzN1OWNXTjZZL3BPZlhxayttRVQ2SmlkZENUTFlHU0VCMSt1aFVMSDBFZDJlUXpzSVJsNkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjIxNTY3CWZpbGU6UmVtb3RlIENsaWVudF8wLjEwLjFfeDY0X2VuLVVTLm1zaQl2ZXJzaW9uOjAuMTAuMQppaWw4M1FIUjNIZGxFNEhhcytuQUgySFF6dVp5RTYrRkJlRGMxa1NIenEyQWhiUVVINTNlckk1cTRyc0V2UTBaMnMrcVgxdndPMFRvSlpPTjQybk1Edz09Cg=="
     },
     "windows-x86_64": {
-      "url": "https://github.com/akshay-pm/remote-client-updates/releases/download/v0.10.0/Remote.Client_0.10.0_x64_en-US.msi",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjZIdnBwNTNIeitacHhYM2xKS3p2QVhzM01nSS9RL0U2cGdUK0VLSUZCT2hqcG1PR2VZc1liSWg2QmZrNWJjZmZ0Y2dBaFRjTk1rQ1FLZDNzWE9UWWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDE2MjY3CWZpbGU6UmVtb3RlIENsaWVudF8wLjEwLjBfeDY0X2VuLVVTLm1zaQoxQlRsdWlxc2tQSXFMWXlEUUNIM2RndzdOcklwbVlRdzNtM1B2ZUNTb283eC9mSlJsTkVtOXpGN2ZoSVB0OHNMd2NDKzROd3BlNU02Q25VcldtZUNDUT09Cg=="
+      "url": "https://github.com/akshay-pm/remote-client-updates/releases/download/v0.10.1/Remote.Client_0.10.1_x64_en-US.msi",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1UjB2aElZTEltMlVJdWdBSTBDV0Ivdk1qSEY5OXFFQmhWUzN1OWNXTjZZL3BPZlhxayttRVQ2SmlkZENUTFlHU0VCMSt1aFVMSDBFZDJlUXpzSVJsNkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjIxNTY3CWZpbGU6UmVtb3RlIENsaWVudF8wLjEwLjFfeDY0X2VuLVVTLm1zaQl2ZXJzaW9uOjAuMTAuMQppaWw4M1FIUjNIZGxFNEhhcytuQUgySFF6dVp5RTYrRkJlRGMxa1NIenEyQWhiUVVINTNlckk1cTRyc0V2UTBaMnMrcVgxdndPMFRvSlpPTjQybk1Edz09Cg=="
     },
     "darwin-aarch64": {
-      "url": "https://github.com/akshay-pm/remote-client-updates/releases/download/v0.10.0/Remote.Client.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Ui9nbUtQN3B0dklldlErNzQ5NktYd0dpTkFoajZMQ0RKK1pPd1dkWXo0OVJiTWx4N0hzc2N1ODYwci9QZDRhZFBTRXRCdmdOU0o5Z0ppZ2dlTnFMY1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDE2NzExCWZpbGU6UmVtb3RlIENsaWVudC5hcHAudGFyLmd6CjlRemxEM1hLVWE3L25ieVBIN0VtYlBtckYzU2xXRzdjbWJwck91RTQ0TFY5dlY2cm81M3VQcXUxQzlXL1gwd25BM2RkY2VxQzVvbEg2SHp5UnVzckR3PT0K"
+      "url": "https://github.com/akshay-pm/remote-client-updates/releases/download/v0.10.1/Remote.Client.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU2dCd1B4dFF1Ujc2c3RUTDlsdXZWWEJ4TXhxVlF6anM5UVkyWVVzNURFR2hrT1ZwMldNaURodE1PdGpZV0w1OUlzeUtHcStaaVFzWVJRZ09RL0htUUIzcE4xUk1zbmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjIyNzY4CWZpbGU6UmVtb3RlIENsaWVudC5hcHAudGFyLmd6CXZlcnNpb246MC4xMC4xClBad3UyVU1tK28yTjlSVTIrSFlnMGl4UE1tLzdXT3d4djJDa2hvVlJDUEYxVTc5RDdsdlhUaDV2WUVkMzJ3cnFFNWNuQzhPRXVoVU5nYmc3UWMzK0JRPT0K"
     }
   },
   "downloads": {
     "darwin-aarch64": {
-      "url": "https://github.com/akshay-pm/remote-client-updates/releases/download/v0.10.0/Remote.Client_0.10.0_aarch64.dmg"
+      "url": "https://github.com/akshay-pm/remote-client-updates/releases/download/v0.10.1/Remote.Client_0.10.1_aarch64.dmg"
     }
   }
 }
